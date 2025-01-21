@@ -31,7 +31,7 @@ function Products() {
                                             <span className="text-3xl font-bold text-slate-900">₹{Math.floor(i.price * (100 - i.discount) / 100)}</span>
                                             <span className="text-sm text-gray-500 line-through ml-2">₹{i.price}</span>
                                         </p>
-                                        <span className="absolute top-[55vh] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
+                                        <span className="absolute bottom-[18%] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
                                             {i.discount}% OFF
                                         </span>
                                     </div>
@@ -67,7 +67,7 @@ function Products() {
                                             <span className="text-3xl font-bold text-slate-900">₹{Math.floor(i.price * (100 - i.discount) / 100)}</span>
                                             <span className="text-sm text-gray-500 line-through ml-2">₹{i.price}</span>
                                         </p>
-                                        <span className="absolute top-[55vh] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
+                                        <span className="absolute bottom-[18%] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
                                             {i.discount}% OFF
                                         </span>
                                     </div>
@@ -103,7 +103,7 @@ function Products() {
                                             <span className="text-3xl font-bold text-slate-900">₹{Math.floor(i.price * (100 - i.discount) / 100)}</span>
                                             <span className="text-sm text-gray-500 line-through ml-2">₹{i.price}</span>
                                         </p>
-                                        <span className="absolute top-[55vh] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
+                                        <span className="absolute bottom-[18%] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
                                             {i.discount}% OFF
                                         </span>
                                     </div>
@@ -139,7 +139,7 @@ function Products() {
                                             <span className="text-3xl font-bold text-slate-900">₹{Math.floor(i.price * (100 - i.discount) / 100)}</span>
                                             <span className="text-sm text-gray-500 line-through ml-2">₹{i.price}</span>
                                         </p>
-                                        <span className="absolute top-[55vh] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
+                                        <span className="absolute bottom-[18%] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
                                             {i.discount}% OFF
                                         </span>
                                     </div>
@@ -175,7 +175,7 @@ function Products() {
                                             <span className="text-3xl font-bold text-slate-900">₹{Math.floor(i.price * (100 - i.discount) / 100)}</span>
                                             <span className="text-sm text-gray-500 line-through ml-2">₹{i.price}</span>
                                         </p>
-                                        <span className="absolute top-[55vh] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
+                                        <span className="absolute bottom-[18%] right-2 m-2 rounded-full bg-red-600 px-2 text-center text-sm font-medium text-white">
                                             {i.discount}% OFF
                                         </span>
                                     </div>

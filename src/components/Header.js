@@ -13,15 +13,15 @@ function Header() {
     const {showDiv, setShowDiv} = useContext(Data)
     
     return (
-        <div className='h-[10vh]'>
-            <nav class="bg-black z-[10] dark:bg-gray-800  w-full flex shadow justify-center relative">
+        <div className='h-[12vh] '>
+            <nav class="cursor-pointer  bg-black h-[10vh] z-[10] dark:bg-gray-800  w-full flex shadow justify-center fixed">
                 <div class="  lg:w-[80%] w-[94%]">
                     <div class="flex  items-center justify-between h-16">
                         <img onClick={()=>navigate("/")}  class="lg:h-[8vh] h-[6vh]" src="https://www.portronics.com/cdn/shop/files/logo_f6f5e2d7-11ef-46f4-b9b8-4d4c99fe098f.png" alt="Workflow" />
                         <div class="hidden lg:block">
                             <div class="flex items-baseline ml-10 space-x-4 z-40">
                                 <div onMouseOver={() => setCategoryDiv(true)} onMouseLeave={() => setCategoryDiv(false)} class= "dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" >
-                                    <div> Category <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                                    <div className='text-[20px] '> Category <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
                                     {categoryDiv == true ?
                                         <div className={`${categoryDiv == true ? 'category-animation' : null} w-[70%] left-[5%] duration-700 z-50 top-[10vh] h-[50vh] bg-slate-50 shadow border absolute`}>
 
@@ -66,18 +66,16 @@ function Header() {
                                         </div> : null}
                                 </div>
 
-                                <a  class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <a  class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-[20px] font-medium">
                                     New Arrivals
                                 </a>
-                                <a class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" >
+                                <a  onClick={() => {navigate("/manyproduct")}} class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-[20px] font-medium" >
                                    Daily Deals
                                 </a>
-                                <a class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <a onClick={() => {navigate("/supportpage")}} class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-[20px] font-medium">
                                    Support
                                 </a>
-                                <a class=" dark:text-white text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                                    Contact
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="block">

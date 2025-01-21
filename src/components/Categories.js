@@ -17,7 +17,7 @@ function Categories() {
                     >
                         <img
                             className='w-full h-auto'
-                            src='https://www.portronics.com/cdn/shop/files/Audio.gif?v=1715162800'
+                            src='https://www.portronics.com/cdn/shop/files/Audio_GIF.gif?v=1734433439'
                             alt='Audio'
                         />
                         <label className='font-bold text-[16px] sm:text-[20px]'>Audio</label>

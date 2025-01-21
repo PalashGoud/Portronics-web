@@ -29,3 +29,7 @@ code {
   }
   
 }
+
+.support-image:hover{
+ scale: 1.1;
+}

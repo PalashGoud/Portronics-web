@@ -9,6 +9,7 @@ import AdminPanel from './pages/AdminPanel'
 import SingleProduct from './pages/SingleProduct'
 import ManyProduct from './pages/ManyProduct'
 import SearchPage from './pages/SearchPage'
+import Support from './pages/Support'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/singleproduct' element={<SingleProduct/>}></Route>
           <Route path='/manyproduct' element={<ManyProduct/>}></Route>
           <Route path='/searchpage' element={<SearchPage/>}></Route>
+          <Route path='/supportpage' element={<Support/>}></Route>
         </Routes>
       </BrowserRouter>
       </Context>
